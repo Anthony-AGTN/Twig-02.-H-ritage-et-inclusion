@@ -1,0 +1,31 @@
+body {
+    margin: auto;
+    max-width: 50em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    margin: 0rem;
+    padding: 0rem;
+    background-color: rgb(65, 62, 62);
+}
+
+li {
+    margin: 0rem;
+    padding: 0.5rem 1rem;
+    color: rgb(221, 217, 217);
+}
+
+li:hover {
+    margin: 0rem;
+    padding: 0.5rem 1rem;
+    color: rgb(65, 62, 62);
+    background-color: rgb(221, 217, 217);
+    border: 1px solid rgb(189, 185, 185);
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
